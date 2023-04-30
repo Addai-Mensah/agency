@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../common/nav'
 import rectangle1 from "../../assets/groups.png"
-import rectangle2 from "../../assets/rectangle2.png"
+import rectangle2 from "../../assets/rec.png"
 
 
 function Hero() {
