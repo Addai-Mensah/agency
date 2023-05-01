@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "../../assets/logo.png"
 import {
   Navbar,
   MobileNav,
@@ -71,7 +72,7 @@ export default function Nav() {
           variant="small"
           className="mr-4 cursor-pointer py-1.5 font-normal"
         >
-          <span>Material Tailwind</span>
+          <img className="w-[6.5rem]" src={logo} alt="" />
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">

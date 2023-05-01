@@ -7,7 +7,7 @@ function Services() {
     <div className='bg-no-repeat bg-[#DDE9FF] bg-cover h-auto sm:h-[70vh] '>
         <div className='hidden sm:block '>
         <div className='   bg-no-repeat h-[70vh]  sm:h-[70vh] sm:block'  style={{backgroundImage: `url(${bg})`}}>     
-         <div className=' flex items-center justify-center gap-20 pt-[10rem] '>
+         <div className=' flex items-center justify-center gap-20 pt-[8rem] '>
           <img className='w-[20rem] index-50' src={man} alt="" />
 
           <div>

@@ -3,6 +3,7 @@ import Hero from '../../home/hero'
 import Offer from '../../home/offer'
 import Services from '../../home/services'
 import Otherbusiness from '../../common/otherbusiness'
+import Faq from '../../common/faq'
 
 function Homepage() {
   return (
@@ -11,6 +12,7 @@ function Homepage() {
          <Offer/>
          <Services/>
          <Otherbusiness/>
+         <Faq/>
 
     </div>
   )
