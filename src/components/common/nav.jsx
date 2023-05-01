@@ -119,9 +119,7 @@ export default function Nav() {
       <MobileNav open={openNav}>
         <div className="container mx-auto">
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
-          </Button>
+          <button className='text-white w-[10rem] h-[2rem] bg-[#1F2B6C] mb-[12rem]'>Get started</button>
         </div>
       </MobileNav>
     </Navbar>
