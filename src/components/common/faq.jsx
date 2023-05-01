@@ -31,10 +31,10 @@ export default function Faq() {
   };
  
   return (
-   <div className="my-[5rem] ">
+   <div className="mt-[5rem] mb-[7rem] ">
      <Fragment>
 
-     <h1 className='font-poppins mb-[2.5rem] text-[1.7rem] text-center  font-bold text-[#159EEC]'>Frequently Asked Questions</h1>
+     <h1 className='font-poppins mb-[2.5rem] text-[1.2rem]  sm:text-[1.7rem] text-center  font-bold text-[#159EEC]'>Frequently Asked Questions</h1>
 
         <div className="flex items-center justify-center">
         <div className="sm:w-[80vw]  w-[85vw]">
@@ -75,8 +75,8 @@ export default function Faq() {
                 </AccordionBody>
         </Accordion>
 
-        <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
-            <AccordionHeader onClick={() => handleOpen(3)}>
+        <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
+            <AccordionHeader onClick={() => handleOpen(4)}>
             <div className="flex items-center gap-3">
                 <img className="w-3  sm:w-4" src={cc} alt="" />
                 <h3 className="text-[0.8rem] sm:[1.4rem] font-poppins"> How do I get started with Autom-Man Integrated Corp?</h3>
@@ -88,8 +88,8 @@ export default function Faq() {
         </Accordion>
 
 
-                <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
-                <AccordionHeader onClick={() => handleOpen(3)}>
+                <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
+                <AccordionHeader onClick={() => handleOpen(5)}>
                 <div className="flex items-center gap-3">
                     <img className="w-3  sm:w-4" src={cc} alt="" />
                     <h3 className="text-[0.8rem] sm:[1.4rem] font-poppins"> How long does it take to see results from Autom-Man Integrated Corp's services?</h3>
@@ -100,8 +100,8 @@ export default function Faq() {
                 </AccordionBody>
         </Accordion>
 
-        <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
-                <AccordionHeader onClick={() => handleOpen(3)}>
+        <Accordion open={open === 6} icon={<Icon id={6} open={open} />}>
+                <AccordionHeader onClick={() => handleOpen(6)}>
                 <div className="flex items-center gap-3">
                     <img className="w-3  sm:w-4" src={cc} alt="" />
                     <h3 className="text-[0.8rem] sm:[1.4rem] font-poppins"> How much does Autom-Man Integrated Corp's services cost?</h3>

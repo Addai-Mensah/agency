@@ -4,6 +4,7 @@ import Offer from '../../home/offer'
 import Services from '../../home/services'
 import Otherbusiness from '../../common/otherbusiness'
 import Faq from '../../common/faq'
+import Footer from '../../common/footer'
 
 function Homepage() {
   return (
@@ -13,7 +14,7 @@ function Homepage() {
          <Services/>
          <Otherbusiness/>
          <Faq/>
-
+         <Footer/>
     </div>
   )
 }
