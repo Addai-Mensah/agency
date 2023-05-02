@@ -64,15 +64,17 @@ function Ouroffer() {
 
      <div className='block sm:hidden'>
      <h1 className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] '>What We Offer</h1>
-     <p className='font-poppins mt-2 w-[20rem] sm:text-[1rem] text-center text-[0.8rem] mx-[3rem] '>If you're ready to take your business to the next level, we're here to help. Contact us today to learn more about our consulting services and how we can help your business achieve its goals. We'll work with you to develop a customized consulting plan that meets your unique needs and delivers results. Let's work together to achieve long-term success for your business.</p>
+     <div className='flex items-center justify-center'>
+     <p className='font-poppins mt-2 w-[20rem] sm:text-[1rem] text-center text-[0.8rem] '>If you're ready to take your business to the next level, we're here to help. Contact us today to learn more about our consulting services and how we can help your business achieve its goals. We'll work with you to develop a customized consulting plan that meets your unique needs and delivers results. Let's work together to achieve long-term success for your business.</p>
+     </div>
      <div className=' flex items-center justify-center'>
 
      
      <div className='flex flex-col mb-[5rem]'>
-   
+     <h1 className='font-poppins mb-[-3rem] mt-[3rem] text-center text-[1.4rem]  font-bold text-[#159EEC]'>Reach out to us</h1>
      <img className='w-[17rem] mx-auto  h-[17rem] index-50' src={lady} alt="" />
      <div>
-            <h1 className='font-poppins mb-2  sm:mb-4 text-center text-[1.4rem]  font-bold text-[#159EEC]'>Reach out to us</h1>
+           
             <div className='flex items-center justify-center'>
                 <div>
                 <div className='flex items-center mt-3  gap-4'>
