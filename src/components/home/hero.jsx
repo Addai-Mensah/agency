@@ -30,8 +30,8 @@ function Hero() {
 
 
     <div className=' sm:hidden'>
-            <div className='bg-no-repeat bg-cover h-auto sm:h-[90vh] first-line:' style={{backgroundImage: `url(${rectangle2})`}}>
-                <div className='bg-no-repeat bg-cover h-auto sm:h-[90vh] bg-opacity-50' style={{backgroundImage: `url(${rectangle1})`}}>
+            <div className='bg-no-repeat bg-cover h-[87vh] sm:h-[90vh] first-line:' style={{backgroundImage: `url(${rectangle2})`}}>
+                <div className='bg-no-repeat bg-cover h-[87vh] sm:h-[90vh] bg-opacity-50' style={{backgroundImage: `url(${rectangle1})`}}>
                     <div className='pt-[5rem]'>
                      <div className=''>
                       <h1 className='text-white text-center font-bold text-[1.5rem] sm:text-[3.5rem] font-poppins mb-6'>Improve Your <span className='text-[#1F2B6C] leading-6'> Business</span> With  <br  />  <span className='text-[#1F2B6C] flex items-center justify-center leading-6'>Expert Consulting</span> <br /><span className='flex items-center justify-center mt-[-2rem]'>Services</span></h1>
