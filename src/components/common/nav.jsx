@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import logo from "../../assets/logo.png"
+import { Link } from "react-router-dom";
 import {
   Navbar,
   MobileNav,
@@ -26,9 +27,10 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Home
-        </a>
+        <Link to="/">Home</Link>
+       
+        
+        
       </Typography>
       <Typography
         as="li"
@@ -36,9 +38,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          About us
-        </a>
+       <Link to="/about">About us</Link>
       </Typography>
       <Typography
         as="li"
@@ -46,9 +46,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Our services
-        </a>
+        <Link to="/service">Our services</Link>
       </Typography>
       <Typography
         as="li"
@@ -56,9 +54,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Contact us
-        </a>
+       <Link to="/contact">Contact us</Link>
       </Typography>
     </ul>
   );
@@ -75,9 +71,9 @@ export default function Nav() {
           <img className="w-[6.5rem]" src={logo} alt="" />
         </Typography>
         <div className="hidden lg:block">{navList}</div>
-        <Button variant="gradient" size="sm" className="hidden lg:inline-block">
+        {/* <Button variant="gradient" size="sm" className="hidden lg:inline-block">
           <span>Get Started</span>
-        </Button>
+        </Button> */}
         <IconButton
           variant="text"
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
