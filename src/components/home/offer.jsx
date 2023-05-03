@@ -112,7 +112,7 @@ function Offer() {
             <img className='mx-auto w-[4rem]' src={icon2} alt="" />
                 <Fade bottom>
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-'>Financial analysis</h5>
-                <p className='text-[0.8rem] text-center font-poppins'>Our financial experts can help yo <br /> analyze your company's financial data <br /> to identify areas for improvment and <br /> development strategies to improve <br />profitability and cash flow</p>
+                <p className='text-[0.8rem] text-center font-poppins'>Our financial experts can help you <br /> analyze your company's financial data <br /> to identify areas for improvment and <br /> development strategies to improve <br />profitability and cash flow</p>
                 </Fade>
             </div>
             </div>
