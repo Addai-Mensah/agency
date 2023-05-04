@@ -1,16 +1,50 @@
-import React from 'react'
+import React,{useRef} from 'react'
+import {useIntersection} from "react-use"
+import gsap from "gsap"
 import icon1 from "../../assets/icon1.png"
 import icon2 from "../../assets/icon2.png"
 import icon3 from "../../assets/icon3.png"
+import { fadeOutEnabled } from 'react-reveal/globals'
 
 
 function Offer() {
-  return (
-    <div className='mt-[4rem]'>
+    const sectionRef = useRef(null)
+    const intersection = useIntersection(sectionRef, {
+        root:null,
+        rootMargin: "0px",
+        threshold: 0.9
+    })
 
-        <div className='flex items-center justify-center mb-[3rem]'>
+    const fadeIn = (element) => {
+        gsap.to(element, 1, {
+            opacity: 1,
+            y: -60,
+            ease: "power4.out",
+            stagger: {
+                amount: .3
+            }
+        })
+    }
+
+    const fadeOut = (element) => {
+        gsap.to(element, 1, {
+            opacity: 0,
+            y: -20,
+            ease: "power4.out",
+            
+        })
+    }
+
+    intersection && intersection.intersectionRatio < 0.9 ?
+    fadeOut(".fadeIn")
+
+    : fadeIn("fadeIn")
+  return (
+    <div ref={sectionRef} className='mt-[4rem]'>
+
+        <div  className='flex fadeIn items-center justify-center mb-[3rem]'>
             <div>
-            <h1 className='text-center text-[#159EEC] font-bold font-poppins text-[1.5rem] leading-1'>What We Offer</h1>
+            <h1 className='text-center  text-[#159EEC] font-bold font-poppins text-[1.5rem] leading-1'>What We Offer</h1>
             <p className='text-[0.9rem] font-poppins '>Our consulting services cover a wide range of areas.</p>
             </div>
         </div>
@@ -18,9 +52,9 @@ function Offer() {
 
 
         <div className='hidden sm:block'>
-        <div className='flex items-center justify-center gap-10 '>
+        <div className='flex items-center  justify-center gap-10 '>
 
-            <div className='bg-[#BFD2F8] w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
+            <div className='bg-[#BFD2F8] fadeIn w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
             <div className=''>
             <img className='mx-auto w-[4rem]' src={icon1} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Strategic planning</h5>
@@ -28,7 +62,7 @@ function Offer() {
             </div>
             </div>
 
-            <div className='bg-[#BFD2F8] w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
+            <div className='bg-[#BFD2F8] fadeIn w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
             <div className=''>
             <img className='mx-auto w-[4rem]' src={icon2} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Financial analysis</h5>
@@ -36,7 +70,7 @@ function Offer() {
             </div>
             </div>
 
-            <div className='bg-[#BFD2F8] w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
+            <div className='bg-[#BFD2F8] fadeIn w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
             <div className=''>
             <img className='mx-auto w-[4rem]' src={icon3} alt="" />
             <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Operations management</h5>

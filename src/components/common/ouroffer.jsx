@@ -7,7 +7,7 @@ import email from "../../assets/email.png"
 
 function Ouroffer() {
   return (
-    <div className='bg-[#DDE9FF]'>
+    <div className='bg-[#DDE9FF] sm:pb-[5rem]'>
         <div>
             <div className='flex items-center justify-center'>
                <div>
@@ -24,24 +24,15 @@ function Ouroffer() {
             <div>
                 <div className='flex items-center mt-2  gap-4'>
                     <img src={email} alt="" />
-                    <p>Email Address</p>
+                    <p>@Info / @hr</p>
                     
                 </div>
                 <div className='flex items-center mt-1  gap-4'>
                     <img src={phone} alt="" />
-                    <p>Phone number</p>
+                    <p>5872159210</p>
                     
                 </div>
-                <div className='flex items-center mt-1  gap-4'>
-                    <img src={twitter} alt="" />
-                    <p>Twitter</p>
-                    
-                </div>
-                <div className='flex items-center mt-1  gap-4'>
-                    <img src={locate} alt="" />
-                    <p>Location</p>
-                    
-                </div>
+                
 
             </div>
          

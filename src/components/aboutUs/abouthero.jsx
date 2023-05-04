@@ -24,8 +24,8 @@ function Abouthero() {
 
 
             <div className=' sm:hidden'>
-                    <div className='bg-no-repeat bg-cover h-[87vh] sm:h-[87vh] first-line:' style={{backgroundImage: `url(${bg})`}}>
-                        <div className='bg-no-repeat bg-cover h-[87vh] sm:h-[70vh] bg-opacity-50' style={{backgroundImage: `url(${bg2})`}}>
+                    <div className='bg-no-repeat bg-cover h-[80vh] sm:h-[80vh] first-line:' style={{backgroundImage: `url(${bg})`}}>
+                        <div className='bg-no-repeat bg-cover h-[80vh] sm:h-[70vh] bg-opacity-50' style={{backgroundImage: `url(${bg2})`}}>
                             <div className='pt-[5rem]'>
                             <div className='flex items-center justify-center'>
 

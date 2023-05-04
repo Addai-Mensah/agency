@@ -115,7 +115,7 @@ export default function Nav() {
       <MobileNav open={openNav}>
         <div className="container mx-auto">
           {navList}
-          <button className='text-white w-[10rem] h-[2rem] bg-[#1F2B6C] mb-[12rem]'>Get started</button>
+          {/* <button className='text-white w-[10rem] h-[2rem] bg-[#1F2B6C] mb-[12rem]'>Get started</button> */}
         </div>
       </MobileNav>
     </Navbar>

@@ -4,10 +4,10 @@ import man from "../../assets/man.png"
 
 function Services() {
   return (
-    <div className='bg-no-repeat bg-[#DDE9FF] bg-cover h-auto sm:h-[70vh] '>
+    <div className='bg-no-repeat bg-[#DDE9FF] bg-cover h-auto sm:h-[80vh] sm:py-[12rem] '>
         <div className='hidden sm:block '>
-        <div className='   bg-no-repeat h-[70vh]  sm:h-[70vh] sm:block'  style={{backgroundImage: `url(${bg})`}}>     
-         <div className=' flex items-center justify-center gap-20 pt-[8rem] '>
+       
+         <div className=' flex items-center justify-center gap-20  '>
           <img className='w-[20rem] index-50' src={man} alt="" />
 
           <div>
@@ -16,7 +16,6 @@ function Services() {
             <p className='font-poppins w-[25rem]'>we pride ourselves on our commitment to our  clients and our  results-driven approach. We work tirelessly to deliver tangible,  measurable results that help our clients achieve their goals  and improve their bottom line.</p>
           </div>
          </div>
-        </div>
         </div>
 
 
