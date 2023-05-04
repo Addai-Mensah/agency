@@ -11,7 +11,7 @@ function Ouroffer() {
         <div>
             <div className='flex items-center justify-center'>
                <div>
-               <h1 className='text-center sm:mt-[10rem] font-poppins hidden sm:block mb-0  sm:mb-4  text-[1.7rem]  font-bold text-[#159EEC]'>What we offer</h1>
+               <h1 className='text-center sm:mt-[10rem] font-poppins hidden sm:block mb-0  sm:mb-4  text-[1.7rem] mt-[1rem] font-bold text-[#159EEC]'>What we offer</h1>
                 <p className='font-poppins mt-2 w-[50rem] sm:text-[1rem] hidden sm:block text-[0.8rem]'>If you're ready to take your business to the next level, we're here to help. Contact us today to learn more about our consulting services and how we can help your business achieve its goals. We'll work with you to develop a customized consulting plan that meets your unique needs and delivers results. Let's work together to achieve <span className='pl-[15rem]'>long-term success for your business.</span></p>
                </div>
             </div>
@@ -63,7 +63,7 @@ function Ouroffer() {
 
 
      <div className='block sm:hidden'>
-     <h1 className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] '>What We Offer</h1>
+     <h1 className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] mt-[1rem] '>What We Offer</h1>
      <div className='flex items-center justify-center'>
      <p className='font-poppins mt-2 w-[20rem] sm:text-[1rem] text-center text-[0.8rem] '>If you're ready to take your business to the next level, we're here to help. Contact us today to learn more about our consulting services and how we can help your business achieve its goals. We'll work with you to develop a customized consulting plan that meets your unique needs and delivers results. Let's work together to achieve long-term success for your business.</p>
      </div>
