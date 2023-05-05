@@ -174,7 +174,7 @@ function Ouroffer() {
                 >
                 <div className='flex items-center mt-3  gap-4'>
                     <img src={email} alt="" />
-                    <p>Automommonintegratedcorp@gmail.com</p>
+                    <p>Automonintegratedcorp@gmail.com</p>
                     
                 </div>
                 <div className='flex items-center mt-2  gap-4'>
