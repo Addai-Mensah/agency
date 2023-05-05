@@ -107,7 +107,7 @@ export default function Faq() {
              variants={animates}>
             <AccordionHeader onClick={() => handleOpen(2)}>
             <div className="flex items-center gap-3">
-                <img className="w-3  sm:w-4" src={cc} alt="" />
+                <img className="w-1 sm:w-4" src={cc} alt="" />
                 <h3 className="text-[0.8rem] sm:[1.4rem] font-poppins">  How can Autom-Man Integrated Corp help my business grow?</h3>
             </div>
             </AccordionHeader>
