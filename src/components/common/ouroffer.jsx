@@ -174,22 +174,12 @@ function Ouroffer() {
                 >
                 <div className='flex items-center mt-3  gap-4'>
                     <img src={email} alt="" />
-                    <p>Email Address</p>
+                    <p>Automommonintegratedcorp'gmail.com</p>
                     
                 </div>
                 <div className='flex items-center mt-2  gap-4'>
                     <img src={phone} alt="" />
-                    <p>Phone number</p>
-                    
-                </div>
-                <div className='flex items-center mt-2  gap-4'>
-                    <img src={twitter} alt="" />
-                    <p>Twitter</p>
-                    
-                </div>
-                <div className='flex items-center mt-2  gap-4'>
-                    <img src={locate} alt="" />
-                    <p>Location</p>
+                    <p>5872159210</p>
                     
                 </div>
                 </motion.div>

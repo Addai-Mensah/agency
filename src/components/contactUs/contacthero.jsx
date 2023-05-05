@@ -46,7 +46,13 @@ function ContactHero() {
               
                     <div className='pt-[5rem]'>
                     <div className='flex items-center justify-center'>
-                    <h1 className='text-white sm:pl-[10rem] font-bold text-[2rem] font-poppins mb-4 sm:mb-6 leading-10'>Get  <span className='text-[#159EEC]'> Intouch </span> <br /> <span className='text-[#159EEC]'></span>With Us <span className='text-[#159EEC]'> Today </span></h1>    
+                    <motion.h1
+                    initial={"offscreen"}
+                    whileInView={"onscreen"}
+                    viewport={{once:false}}
+                    variants={animates}
+                    
+                    className='text-white sm:pl-[10rem] font-bold text-[2rem] font-poppins mb-4 sm:mb-6 leading-10'>Get  <span className='text-[#159EEC]'> Intouch </span> <br /> <span className='text-[#159EEC]'></span>With Us <span className='text-[#159EEC]'> Today </span></motion.h1>    
                     </div>          
                 </div>
             </div>        
