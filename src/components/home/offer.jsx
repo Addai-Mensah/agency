@@ -70,50 +70,76 @@ function Offer() {
         <div className='hidden sm:block'>
         <div  className='flex items-center  justify-center gap-10 '>
 
-            <div className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
+            <motion.div 
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{once:false, amount:0.3}}
+            variants={animates}
+            className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
             <div className=''>
             <img className='mx-auto w-[4rem]' src={icon1} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Strategic planning</h5>
                 <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>Our financial experts can help you   analyze your company's financial data  to identify areas for improvement and develop strategies to improve profitability and cash flow.</p>
             </div>
-            </div>
+            </motion.div>
 
-            <div className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
+            <motion.div
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{once:false, amount:0.3}}
+            variants={animates}
+            className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
             <div className=''>
             <img className='mx-auto w-[4rem]' src={icon2} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Financial analysis</h5>
                 <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>Our financial experts can help you  analyze your company's financial data  to identify areas for improvment and  development strategies to improve profitability and cash flow</p>
             </div>
-            </div>
+            </motion.div>
 
-            <div className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
+            <motion.div 
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            viewport={{once:false, amount:0.3}}
+            variants={animates}
+            className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-10'>
             <div className=''>
             <img className='mx-auto w-[4rem]' src={icon3} alt="" />
             <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Operations management</h5>
             <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>We can help you streamline your  operations and improve efficiency,  reducing costs and increasing  productivity.</p>
             
             </div>
-            </div>
+            </motion.div>
 
             </div>
         </div>
 
         <div className='hidden sm:block'>
                 <div   className=' flex items-center justify-center flex-row gap-10'>
-                <div className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-20'>
+                <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                viewport={{once:false, amount:0.3}}
+                variants={animates}
+                className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-20'>
                     <div className=''>
                         <img className='mx-auto w-[4rem]' src={icon1} alt="" />
                         <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Marketing and branding</h5>
                         <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>Our marketing experts can help you  develop effective marketing  strategies that increase brand awareness and drive revenue growth.</p>
                     </div>
-                </div>
-                <div className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-20'>
+                </motion.div>
+                
+                <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                viewport={{once:false, amount:0.3}}
+                variants={animates}
+                className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-20'>
                     <div className=''>
                         <img className='mx-auto w-[4rem]' src={icon1} alt="" />
                         <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Technology solutions</h5>
                         <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>We can help you leverage the latest  technology to improve your business processes and gain a competitive edge.</p>
                     </div>
-                </div>
+                </motion.div>
             </div>
             </div>
 
@@ -130,7 +156,7 @@ function Offer() {
             initial={"offscreen"}
             whileInView={"onscreen"}
             viewport={{once:false, amount:0.3}}
-            variants={animates} className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
+            variants={animates} className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
                 <motion.div
                  initial={"offscreen"}
                  whileInView={"onscreen"}
@@ -147,7 +173,7 @@ function Offer() {
             whileInView={"onscreen"}
             variants={animates}
             viewport={{once:false, amount:0.3}}
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-4'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
             <motion.div 
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -164,7 +190,7 @@ function Offer() {
             whileInView={"onscreen"}
             variants={animates}
             viewport={{once:false, amount:0.3}}
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-4'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
             <motion.div 
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -182,7 +208,7 @@ function Offer() {
             variants={animates}
             viewport={{once:false, amount:0.3}}
 
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-4'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
                     <motion.div 
                     initial={"offscreen"}
                     whileInView={"onscreen"}
