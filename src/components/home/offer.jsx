@@ -57,7 +57,7 @@ function Offer() {
             <motion.h1
             initial={"offscreen"}
             whileInView={"onscreen"}
-            variants={animates} className='text-center    text-[#159EEC] font-bold font-poppins  text-[1.5rem]'>What We Offer</motion.h1>
+            variants={text} className='text-center    text-[#159EEC] font-bold font-poppins  text-[1.5rem]'>What We Offer</motion.h1>
             <motion.p
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -127,7 +127,7 @@ function Offer() {
                         <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>Our marketing experts can help you  develop effective marketing  strategies that increase brand awareness and drive revenue growth.</p>
                     </div>
                 </motion.div>
-                
+
                 <motion.div
                 initial={"offscreen"}
                 whileInView={"onscreen"}

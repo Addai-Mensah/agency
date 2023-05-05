@@ -73,9 +73,13 @@ function Hero() {
                       <div className='flex items-center justify-center'>
                       <p className='text-white font-poppins px-5 text-[0.8rem]'>we understand that every business has its own set of challenges  and opportunities. That's why we offer tailored consulting servicws that are designed to meet the unique needs of your <br /> business. Wheather you're just startingout or looking to take your company to the next level, our experienced consultants can help you achieve your goals and improve your bottom line.</p>
                       </div>
+                      
+                      
+                      <div className='mb-[10rem]'>
                       <Link className="no-underline" to="/contact"><div className='mx-[6rem] mt-4'>
-                              <button className='text-white w-[10rem] h-[2rem] mb-[10rem] bg-[#1F2B6C]'>Get started</button>
+                              <button className='text-white w-[10rem] h-[2rem]  bg-[#1F2B6C]'>Get started</button>
                     </div></Link>
+                      </div>
                      
                      </motion.div>
                   
