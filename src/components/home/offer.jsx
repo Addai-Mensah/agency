@@ -129,7 +129,8 @@ function Offer() {
                 <motion.div
             initial={"offscreen"}
             whileInView={"onscreen"}
-            variants={animates} className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
+            viewport={{once:false, amount:0.3}}
+            variants={animates} className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
                 <motion.div
                  initial={"offscreen"}
                  whileInView={"onscreen"}
@@ -145,7 +146,8 @@ function Offer() {
             initial={"offscreen"}
             whileInView={"onscreen"}
             variants={animates}
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
+            viewport={{once:false, amount:0.3}}
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
             <motion.div 
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -161,7 +163,8 @@ function Offer() {
             initial={"offscreen"}
             whileInView={"onscreen"}
             variants={animates}
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
+            viewport={{once:false, amount:0.3}}
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
             <motion.div 
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -177,8 +180,9 @@ function Offer() {
             initial={"offscreen"}
             whileInView={"onscreen"}
             variants={animates}
+            viewport={{once:false, amount:0.3}}
 
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
                     <motion.div 
                     initial={"offscreen"}
                     whileInView={"onscreen"}
@@ -194,6 +198,7 @@ function Offer() {
                 initial={"offscreen"}
                 whileInView={"onscreen"}
                 variants={animates}
+                viewport={{once:false, amount:0.3}}
                 className='bg-[#BFD2F8] w-[16rem] h-[16rem] flex items-center justify-center rounded mb-20'>
                     
                     <motion.div 
