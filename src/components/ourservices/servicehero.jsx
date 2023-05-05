@@ -1,9 +1,28 @@
 import React from 'react'
 import servicebg from "../../assets/servicebg.png"
 import otherbg from "../../assets/otherbg.png"
+import { useAnimation, motion } from "framer-motion";
+
 
 function Servicehero() {
+  const animates = {
+    offscreen:{
+        x:-100,
+        opacity:0
+    },
+
+    onscreen:{
+        x:0,
+        opacity:1,
+        transition:{
+            type:"spring",
+           
+            duration:2}
+    }   
+ }
   return (
+
+    
     <div>
          <div className='relative  hidden sm:block'>
             <div className='bg-no-repeat bg-cover h-[70vh] sm:h-[90vh]' style={{backgroundImage: `url(${servicebg})`}}>
@@ -11,7 +30,12 @@ function Servicehero() {
                     <div className='sm:pt-[9rem] sm:pl-[10rem]'>
                        
                    
-                       <h1 className='text-white font-bold sm:text-[2.5rem] font-poppins mb-4 sm:mb-6 leading-10'>Expert Consulting <br /> <span className='text-[#1F2B6C]'> Services</span> to Propel <br /> Your <span className='text-[#1F2B6C]'>Business Forward</span></h1>
+                       <motion.h1 
+                       initial={"offscreen"}
+                       whileInView={"onscreen"}
+                       viewport={{once:false, amount:0.3}}
+                       variants={animates}
+                       className='text-white font-bold sm:text-[2.5rem] font-poppins mb-4 sm:mb-6 leading-10'>Expert Consulting <br /> <span className='text-[#1F2B6C]'> Services</span> to Propel <br /> Your <span className='text-[#1F2B6C]'>Business Forward</span></motion.h1>
 
 
                     </div>

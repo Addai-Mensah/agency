@@ -1,4 +1,5 @@
 import React from 'react'
+import { useAnimation, motion } from "framer-motion";
 
 import {
     Card,
@@ -10,10 +11,70 @@ import {
   } from "@material-tailwind/react";
    
   export default function ContactForm() {
+
+    const animates = {
+      offscreen:{
+          y:70,
+          opacity:0
+      },
+  
+      onscreen:{
+          y:0,
+          opacity:1,
+          transition:{
+              type:"spring",
+             
+              duration:2}
+      }
+  
+      
+   }
+  
+   const text = {
+      offscreen:{
+          y:50,
+          opacity:0
+      },
+  
+      onscreen:{
+          y:0,
+          opacity:1,
+          transition:{
+              type:"spring",
+             
+              duration:2}
+      }
+  
+      
+   }
+  
+   const image = {
+    offscreen:{
+        x:-100,
+        opacity:0
+    },
+  
+    onscreen:{
+        x:0,
+        opacity:1,
+        transition:{
+            type:"spring",
+            bounce:0.4,
+            duration:2}
+    } 
+  }
+   
     return (
    <div className='sm:ml-[10rem] '>
        <Card color="transparent" shadow={false}>
-        <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+        <motion.form 
+        
+         initial={"offscreen"}
+         whileInView={"onscreen"}
+         viewport={{once:false, amount:0.2}}
+         variants={animates}
+         
+        className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
           <div className="mb-4 flex flex-col gap-6">
           <label className='mb-[-1.5rem] text-[0.8rem] font-bold' htmlFor="">Full Name</label>
             <Input size="lg" label="Enter Full Name" />
@@ -45,7 +106,7 @@ import {
           <Button className="mt-6" fullWidth>
             Contact Us
           </Button>
-        </form>
+        </motion.form>
       </Card>
    </div>
     );

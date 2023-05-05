@@ -128,6 +128,8 @@ function Offer() {
                     </div>
                 </motion.div>
 
+                
+
                 <motion.div
                 initial={"offscreen"}
                 whileInView={"onscreen"}
@@ -140,8 +142,23 @@ function Offer() {
                         <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>We can help you leverage the latest  technology to improve your business processes and gain a competitive edge.</p>
                     </div>
                 </motion.div>
+
+                <motion.div
+                initial={"offscreen"}
+                whileInView={"onscreen"}
+                viewport={{once:false, amount:0.3}}
+                variants={animates}
+                className='bg-[#BFD2F8]  w-[19rem] h-[16rem] flex items-center justify-center rounded mb-20'>
+                    <div className=''>
+                        <img className='mx-auto w-[4rem]' src={icon1} alt="" />
+                        <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Procurement solutions</h5>
+                        <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>We Streamline your purchasing process, saving you time and money. We offer customized solutions tailored to your needs.</p>
+                    </div>
+                </motion.div>
             </div>
             </div>
+
+            
 
 
 
@@ -157,6 +174,7 @@ function Offer() {
             whileInView={"onscreen"}
             viewport={{once:false, amount:0.3}}
             variants={animates} className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
+
                 <motion.div
                  initial={"offscreen"}
                  whileInView={"onscreen"}
@@ -182,6 +200,23 @@ function Offer() {
             <img className='mx-auto w-[4rem]' src={icon2} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Financial analysis</h5>
                 <p className='text-[0.8rem] text-center font-poppins'>Our financial experts can help you <br /> analyze your company's financial data <br /> to identify areas for improvment and <br /> development strategies to improve <br />profitability and cash flow</p>
+            </motion.div>
+            </motion.div>
+
+            <motion.div
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={animates}
+            viewport={{once:false, amount:0.3}}
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
+            <motion.div 
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={text}
+            className=''>
+            <img className='mx-auto w-[4rem]' src={icon3} alt="" />
+                <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Procurement Solutions</h5>
+                <p className='text-[0.8rem] text-center font-poppins'>We Streamline your purchasing process, saving you time and money. We offer customized solutions tailored to your needs.</p>
             </motion.div>
             </motion.div>
 
