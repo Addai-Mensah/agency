@@ -147,7 +147,7 @@ function Offer() {
             whileInView={"onscreen"}
             variants={animates}
             viewport={{once:false, amount:0.3}}
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-4'>
             <motion.div 
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -164,7 +164,7 @@ function Offer() {
             whileInView={"onscreen"}
             variants={animates}
             viewport={{once:false, amount:0.3}}
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-4'>
             <motion.div 
             initial={"offscreen"}
             whileInView={"onscreen"}
@@ -182,7 +182,7 @@ function Offer() {
             variants={animates}
             viewport={{once:false, amount:0.3}}
 
-            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-2'>
+            className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-4'>
                     <motion.div 
                     initial={"offscreen"}
                     whileInView={"onscreen"}
