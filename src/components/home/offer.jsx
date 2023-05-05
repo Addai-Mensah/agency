@@ -12,7 +12,7 @@ import { useAnimation, motion } from "framer-motion";
 function Offer() {
  const animates = {
     offscreen:{
-        y:40,
+        y:70,
         opacity:0
     },
 
