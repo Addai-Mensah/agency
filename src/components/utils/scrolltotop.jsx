@@ -1,14 +1,9 @@
 import React, { useEffect } from 'react'
-import { useLocation } from 'react-router-dom'
+import { motion, useInView, useAnimation } from 'framer-motion'
 
 
 function Scrolltotop() {
-
-    const {location} = useLocation();
-
-    useEffect(() => {
-        window.scrollTO(0, 0)
-    }, {location})
+  
   return (
     <div>
        

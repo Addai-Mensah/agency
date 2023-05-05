@@ -1,13 +1,18 @@
 import React from 'react'
+import { useEffect } from 'react'
 import Nav from '../common/nav'
 import { Link } from 'react-router-dom'
 import rectangle1 from "../../assets/groups.png"
 import rectangle2 from "../../assets/rec.png"
 
 
+ 
+
 
 function Hero() {
   
+  
+
   return (
     <div>
     <Nav/>
@@ -16,7 +21,7 @@ function Hero() {
             <div className='bg-no-repeat bg-cover h-[70vh] sm:h-auto' style={{backgroundImage: `url(${rectangle2})`}}>
                 <div className='bg-no-repeat bg-cover h-[70vh] sm:h-auto ' style={{backgroundImage: `url(${rectangle1})`}}>
                     
-                    <div className='sm:pt-[9rem] sm:pl-[10rem]'>
+                    <div className='sm:pt-[9rem] bannerMain sm:pl-[10rem]'>
                        <h1 className='text-white font-bold sm:text-[2.5rem] font-poppins mb-4 sm:mb-6 leading-10'>Improve Your <span className='text-[#1F2B6C]'> Business</span> <br /> With <span className='text-[#1F2B6C]'>Expert Consulting</span> <br />Services</h1>
                         <p className='text-white font-poppins'>we understand that every business has its own set of challenges <br /> and opportunities. That's why we offer tailored consulting <br /> servicws that are designed to meet the unique needs of your <br /> business. Wheather you're just startingout or looking to take your <br /> company to the next level, our experienced consultants can help <br /> you achieve your goals and improve your bottom line.</p>
                         <div className='mx-[6rem] mt-4'>
