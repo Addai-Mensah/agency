@@ -103,12 +103,12 @@ function Services() {
         <motion.div
         initial={"offscreen"}
         whileInView={"onscreen"}
-        viewport={{once:false, amount:0.3}}
+        viewport={{once:false, amount:0.5}}
         variants={animates}
         >  
            
-            <p className='font-poppins mb-2 w-[18rem] text-[0.8rem]'>Our services are designed to be flexible and scalable, so we  can adapt to meet the needs of businesses of all sizes and  industries. Whether you need a one-time consultation or  ongoing support, we can provide the expertise and guidance  you need to achieve your goals.</p>
-            <p className='font-poppins w-[18rem] mb-14 text-[0.8rem]'>we pride ourselves on our commitment to our  clients and our  results-driven approach. We work tirelessly to deliver tangible,  measurable results that help our clients achieve their goals  and improve their bottom line.</p>
+            <p className='font-poppins mb-2 w-[20rem] text-[0.8rem]'>Our services are designed to be flexible and scalable, so we  can adapt to meet the needs of businesses of all sizes and  industries. Whether you need a one-time consultation or  ongoing support, we can provide the expertise and guidance  you need to achieve your goals.</p>
+            <p className='font-poppins w-[20rem] mb-14 text-[0.8rem]'>we pride ourselves on our commitment to our  clients and our  results-driven approach. We work tirelessly to deliver tangible,  measurable results that help our clients achieve their goals  and improve their bottom line.</p>
         </motion.div>
          </div>
         
