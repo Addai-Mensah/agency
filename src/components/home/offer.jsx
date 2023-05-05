@@ -27,6 +27,24 @@ function Offer() {
 
     
  }
+
+ const text = {
+    offscreen:{
+        y:20,
+        opacity:0
+    },
+
+    onscreen:{
+        y:0,
+        opacity:1,
+        transition:{
+            type:"spring",
+           
+            duration:2}
+    }
+
+    
+ }
    
       
   return (
@@ -112,11 +130,14 @@ function Offer() {
             initial={"offscreen"}
             whileInView={"onscreen"}
             variants={animates} className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
-                <div className=''>
+                <motion.div
+                 initial={"offscreen"}
+                 whileInView={"onscreen"}
+                 variants={text}  className=''>
                 <img className='mx-auto w-[4rem]' src={icon1} alt="" />
                     <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Strategic planning</h5>
                     <p className='text-[0.8rem] text-center font-poppins w-[15rem]'>Our financial experts can help you   analyze your company's financial data  to identify areas for improvement and develop strategies to improve profitability and cash flow.</p>
-                </div>
+                </motion.div>
             </motion.div>
 
 
@@ -125,11 +146,15 @@ function Offer() {
             whileInView={"onscreen"}
             variants={animates}
             className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
-            <div className=''>
+            <motion.div 
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={text}
+            className=''>
             <img className='mx-auto w-[4rem]' src={icon2} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Financial analysis</h5>
                 <p className='text-[0.8rem] text-center font-poppins'>Our financial experts can help you <br /> analyze your company's financial data <br /> to identify areas for improvment and <br /> development strategies to improve <br />profitability and cash flow</p>
-            </div>
+            </motion.div>
             </motion.div>
 
             <motion.div
@@ -137,11 +162,15 @@ function Offer() {
             whileInView={"onscreen"}
             variants={animates}
             className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
-            <div className=''>
+            <motion.div 
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={text}
+            className=''>
             <img className='mx-auto w-[4rem]' src={icon3} alt="" />
             <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Operations management</h5>
             <p className='text-[0.8rem] text-center font-poppins'>We can help you streamline your <br /> operations and improve efficiency, <br /> reducing costs and increasing <br /> productivity.</p>  
-            </div>
+            </motion.div>
             </motion.div>
 
             <motion.div
@@ -150,11 +179,15 @@ function Offer() {
             variants={animates}
 
             className='bg-[#BFD2F8]   w-[16rem] h-[16rem] flex items-center justify-center rounded mb-5'>
-                    <div className=''>
+                    <motion.div 
+                    initial={"offscreen"}
+                    whileInView={"onscreen"}
+                    variants={text}
+                    className=''>
                         <img className='mx-auto w-[4rem]' src={icon1} alt="" />
                         <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Marketing and branding</h5>
                         <p className='text-[0.8rem] text-center font-poppins'>Our marketing experts can help you <br /> develop effective marketing <br /> strategies that increase brand <br />awareness and drive revenue growth.</p>
-                    </div>
+                    </motion.div>
                 </motion.div>
 
                 <motion.div
@@ -162,11 +195,16 @@ function Offer() {
                 whileInView={"onscreen"}
                 variants={animates}
                 className='bg-[#BFD2F8] w-[16rem] h-[16rem] flex items-center justify-center rounded mb-20'>
-                    <div className=''>
+                    
+                    <motion.div 
+                    initial={"offscreen"}
+                    whileInView={"onscreen"}
+                    variants={text} 
+                    className=''>
                         <img className='mx-auto w-[4rem]' src={icon2} alt="" />
                         <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Technology solutions</h5>
                         <p className='text-[0.8rem] text-center font-poppins'>We can help you leverage the latest <br /> technology to improve your business <br />processes and gain a competitive edge.</p>
-                    </div>
+                    </motion.div>
                 </motion.div>
 
                 </div>
