@@ -30,7 +30,7 @@ function ContactHero() {
                     <motion.div
                     initial={"offscreen"}
                     whileInView={"onscreen"}
-                    viewport={{once:false, amount:0.3}}
+                    viewport={{once:false}}
                     variants={animates}
 
                     className='sm:pt-[-5rem] '>        

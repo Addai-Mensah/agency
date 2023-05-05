@@ -33,7 +33,7 @@ function Servicehero() {
                        <motion.h1 
                        initial={"offscreen"}
                        whileInView={"onscreen"}
-                       viewport={{once:false, amount:0.3}}
+                       viewport={{once:false}}
                        variants={animates}
                        className='text-white font-bold sm:text-[2.5rem] font-poppins mb-4 sm:mb-6 leading-10'>Expert Consulting <br /> <span className='text-[#1F2B6C]'> Services</span> to Propel <br /> Your <span className='text-[#1F2B6C]'>Business Forward</span></motion.h1>
 
