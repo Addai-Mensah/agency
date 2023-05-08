@@ -98,12 +98,12 @@ function Ouroffer() {
             >
                 <div className='flex items-center mt-2  gap-4'>
                     <img src={email} alt="" />
-                    <p>Autommonintegratedcorp@gmail.com</p>
+                    <p className=''>Autommonintegratedcorp@gmail.com</p>
                     
                 </div>
                 <div className='flex items-center mt-1  gap-4'>
                     <img src={phone} alt="" />
-                    <p>5872159210</p>
+                    <p className=''>5872159210</p>
                     
                 </div>
                 
@@ -174,12 +174,12 @@ function Ouroffer() {
                 >
                 <div className='flex items-center mt-3  gap-4'>
                     <img src={email} alt="" />
-                    <p>Automonintegratedcorp@gmail.com</p>
+                    <p className=''>Automonintegratedcorp@gmail.com</p>
                     
                 </div>
                 <div className='flex items-center mt-2  gap-4'>
                     <img src={phone} alt="" />
-                    <p>5872159210</p>
+                    <p className=''>5872159210</p>
                     
                 </div>
                 </motion.div>

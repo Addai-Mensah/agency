@@ -61,7 +61,7 @@ function Offer() {
             <motion.p
             initial={"offscreen"}
             whileInView={"onscreen"}
-            variants={animates} className='text-[0.9rem]   font-poppins '>Our consulting services cover a wide range of areas.</motion.p>
+            variants={animates} className='text-[0.9rem]   font-poppins k  '>Our consulting services cover a wide range of areas.</motion.p>
             </div>
         </div>
 
