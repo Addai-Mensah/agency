@@ -138,7 +138,7 @@ function Ouroffer() {
      whileInView={"onscreen"}
      viewport={{once:false}}
      variants={text}
-      className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] mt-[1rem] '>What We Offer</motion.h1>
+      className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] mt-[5rem] '>What We Offer</motion.h1>
      <div className='flex items-center justify-center'>
      <motion.p 
      initial={"offscreen"}
@@ -174,12 +174,12 @@ function Ouroffer() {
                 >
                 <div className='flex items-center mt-3  gap-4'>
                     <img src={email} alt="" />
-                    <p className=''>Automonintegratedcorp@gmail.com</p>
+                    <p className='text-[0.8rem]'>Automonintegratedcorp@gmail.com</p>
                     
                 </div>
                 <div className='flex items-center mt-2  gap-4'>
                     <img src={phone} alt="" />
-                    <p className=''>5872159210</p>
+                    <p className='text-[0.8rem]'>5872159210</p>
                     
                 </div>
                 </motion.div>

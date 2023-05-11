@@ -27,7 +27,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link className="no-underline" to="/">Home</Link>
+        <Link className="hover:no-underline" to="/">Home</Link>
        
         
         
@@ -38,7 +38,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-       <Link className="no-underline" to="/about">About us</Link>
+       <Link className="hover:no-underline" to="/about">About us</Link>
       </Typography>
       <Typography
         as="li"
@@ -46,7 +46,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link className="no-underline" to="/service">Our services</Link>
+        <Link className="hover:no-underline" to="/service">Our services</Link>
       </Typography>
       <Typography
         as="li"
@@ -54,7 +54,7 @@ export default function Nav() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-       <Link className="no-underline" to="/contact">Contact us</Link>
+       <Link className="hover:no-underline" to="/contact">Contact us</Link>
       </Typography>
     </ul>
   );

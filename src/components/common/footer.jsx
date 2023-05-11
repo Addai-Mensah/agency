@@ -67,11 +67,11 @@ function Footer() {
             <div className=''>
            
              <div className=''>
-             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] font-poppins pl-[3.5rem] sm:pl-0 mt-2' href="tel:09162993656">Call us at 5872159210</a>
+             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins pl-[3.5rem] sm:pl-0 mt-2' href="tel:09162993656">Call us at 5872159210</a>
              </div>
 
              <div>
-             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] font-poppins pl-[3.5rem] sm:pl-0 mt-2 ' href="">Automonintegratedcorp@gmail.com</a>
+             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem]  hover:no-underline font-poppins pl-[3.5rem] sm:pl-0 mt-2 ' href="mailto:Automonintegratedcorp@gmail.com">Automonintegratedcorp@gmail.com</a>
              </div>
 
              
@@ -87,7 +87,7 @@ function Footer() {
             <div className=''>
            
            <div className=''>
-           <a className='w-[15rem] text-white text-[0.7rem]  sm:text-[0.7rem] font-poppins pl-[3.5rem] sm:pl-0' href="tel:09162993656">Bay 10, 3620 29 street NE, Calgary</a>
+           <a className='w-[15rem] text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins pl-[3.5rem] sm:pl-0' href="http://maps.google.com/?q=Bay 10, 3620 29 street NE, Calgary">Bay 10, 3620 29 street NE, Calgary</a>
            </div>
 
            
