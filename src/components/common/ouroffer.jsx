@@ -145,7 +145,7 @@ function Ouroffer() {
      whileInView={"onscreen"}
      viewport={{once:false}}
      variants={animates}
-     className='font-poppins mt-2 w-[20rem] sm:text-[1rem] text-center text-[0.8rem] '>If you're ready to take your business to the next level, we're here to help. Contact us today to learn more about our consulting services and how we can help your business achieve its goals. We'll work with you to develop a customized consulting plan that meets your unique needs and delivers results. Let's work together to achieve long-term success for your business.</motion.p>
+     className='font-poppins mt-2 w-[18rem] sm:text-[1rem] text-center text-[0.8rem] '>If you're ready to take your business to the next level, we're here to help. Contact us today to learn more about our consulting services and how we can help your business achieve its goals. We'll work with you to develop a customized consulting plan that meets your unique needs and delivers results. Let's work together to achieve long-term success for your business.</motion.p>
      </div>
      <div className=' flex items-center justify-center'>
 

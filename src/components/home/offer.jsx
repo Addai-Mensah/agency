@@ -216,7 +216,7 @@ function Offer() {
             className=''>
             <img className='mx-auto w-[4rem]' src={icon3} alt="" />
                 <h5 className='text-center font-poppins text-[#1F2B6C] font-bold text-[1rem] my-2'>Procurement Solutions</h5>
-                <p className='text-[0.8rem] text-center font-poppins'>We Streamline your purchasing process, saving you time and money. We offer customized solutions tailored to your needs.</p>
+                <p className='text-[0.8rem] text-center w-[13rem] font-poppins'>We Streamline your purchasing process, saving you time and money. We offer customized solutions tailored to your needs.</p>
             </motion.div>
             </motion.div>
 

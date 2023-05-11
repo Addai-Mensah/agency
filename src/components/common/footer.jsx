@@ -54,7 +54,7 @@ function Footer() {
          variants={text}
         className='mb-7 sm:mb-0'>
         <img className='w-[6rem] mb-3' src={logo} alt="" />
-            <h6 className='sm:px-2 px-[5rem] my-1  font-bold text-[#159EEC]'>About</h6>
+            <h6 className='sm:px-2  my-1  font-bold text-[#159EEC]'>About</h6>
             <p className='sm:w-[20rem] text-white text-[0.7rem] sm:text-[0.7rem] font-poppins'>Autom-Mon Integrated Corp is a business consultancy firm that specializes in providing strategic solutions to organizations. Our team of experts has extensive experience in the industry and is committed to delivering customized services that will optimize your overall business performance. We believe that our success is closely tied to the success of our clients, and we aim to exceed their expectations at every turn. Contact us today and let us help you achieve your business objectives.</p>
          </motion.div>
 
@@ -63,15 +63,15 @@ function Footer() {
              whileInView={"onscreen"}
              variants={text}
             className='mb-[5rem] sm:mb-0  '>
-               <h6 className='  my-1 font-bold sm:px-2 px-[5rem] text-[#159EEC]'>Contact us</h6>
+               <h6 className='  my-1 font-bold sm:px-2  text-[#159EEC]'>Contact us</h6>
             <div className=''>
            
              <div className=''>
-             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins pl-[3.5rem] sm:pl-0 mt-2' href="tel:09162993656">Call us at 5872159210</a>
+             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins sm:pl-0 mt-2' href="tel:09162993656">Call us at 5872159210</a>
              </div>
 
              <div>
-             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem]  hover:no-underline font-poppins pl-[3.5rem] sm:pl-0 mt-2 ' href="mailto:Automonintegratedcorp@gmail.com">Automonintegratedcorp@gmail.com</a>
+             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem]  hover:no-underline font-poppins  sm:pl-0 mt-2 ' href="mailto:Automonintegratedcorp@gmail.com">Automonintegratedcorp@gmail.com</a>
              </div>
 
              
@@ -83,11 +83,11 @@ function Footer() {
              whileInView={"onscreen"}
              variants={text}
             className=' mb-[5rem] mt-[-2.5rem] sm:mb-0'>
-            <h6 className='sm:px-2 ml-[-4.5rem] my-1 font-bold text-[#159EEC] text-center'>Locations</h6>
+            <h6 className='sm:px-2  my-1 font-bold text-[#159EEC]'>Locations</h6>
             <div className=''>
            
            <div className=''>
-           <a className='w-[15rem] text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins pl-[3.5rem] sm:pl-0' href="http://maps.google.com/?q=Bay 10, 3620 29 street NE, Calgary">Bay 10, 3620 29 street NE, Calgary</a>
+           <a className='w-[15rem] text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins  sm:pl-0' href="http://maps.google.com/?q=Bay 10, 3620 29 street NE, Calgary">Bay 10, 3620 29 street NE, Calgary</a>
            </div>
 
            

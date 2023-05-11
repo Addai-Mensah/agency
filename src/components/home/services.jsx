@@ -86,7 +86,7 @@ function Services() {
           initial={"offscreen"}
           whileInView={"onscreen"}
           variants={text}
-         className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] pt-8'>Our Services</motion.h1>
+         className='font-poppins mb-0  sm:mb-4  text-[1.4rem] text-center font-bold text-[#159EEC] pt-[4rem]'>Our Services</motion.h1>
          <div className=' flex items-center justify-center'>
     
          

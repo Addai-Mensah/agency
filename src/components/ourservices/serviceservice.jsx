@@ -77,7 +77,7 @@ function Serviceservice() {
              initial={"offscreen"}
              whileInView={"onscreen"}
              variants={text}
-            className='font-poppins mb-2 w-[25rem]'>At Autom-Mon integrated Corp, we offer a range of expert consulting services that are designed to help businesses achieve their goals and reach their full potential. Here are some of the key services we offer.</motion.p>
+            className='font-poppins mb-2  w-[25rem]'>At Autom-Mon integrated Corp, we offer a range of expert consulting services that are designed to help businesses achieve their goals and reach their full potential. Here are some of the key services we offer.</motion.p>
          
           </div>
          </div>
