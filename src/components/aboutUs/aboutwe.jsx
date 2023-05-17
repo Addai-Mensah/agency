@@ -117,7 +117,7 @@ function Aboutwe() {
         viewport={{once:false}}
         variants={animates}
         >
-            <p className='font-poppins mb-2 px-[1rem] w-[19rem] text-[0.8rem] pb-[4rem]'>At Autom-Mon integrated Corp, we're dedicated to helping businesses of all sizes and industries achieve their goals and reach their full potential. We provide expert consulting services in a wide range of areas, including operations management, marketing, technology, and strategic planning. Our team of experienced consultants has a track record of success in helping businesses improve their bottom line and achieve long-term success.</p>  
+            <p className='font-poppins mb-2 px-[1rem] w-[20rem] text-[0.8rem] pb-[4rem]'>At Autom-Mon integrated Corp, we're dedicated to helping businesses of all sizes and industries achieve their goals and reach their full potential. We provide expert consulting services in a wide range of areas, including operations management, marketing, technology, and strategic planning. Our team of experienced consultants has a track record of success in helping businesses improve their bottom line and achieve long-term success.</p>  
         </motion.div>
          </div>
         
