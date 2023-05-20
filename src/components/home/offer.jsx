@@ -57,7 +57,7 @@ function Offer() {
             <motion.h1
             initial={"offscreen"}
             whileInView={"onscreen"}
-            variants={text} className='text-center    text-[#159EEC] font-bold font-poppins  text-[1.5rem]'>What We Offer</motion.h1>
+            variants={text} className='text-center    text-[#159EEC]  font-poppins  text-[1.5rem]'>What We Offer</motion.h1>
             <motion.p
             initial={"offscreen"}
             whileInView={"onscreen"}

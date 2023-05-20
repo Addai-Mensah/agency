@@ -52,8 +52,8 @@ function Footer() {
          initial={"offscreen"}
          whileInView={"onscreen"}
          variants={text}
-        className='mb-[3rem] sm:mt-[0.5rem]  sm:mb-0'>
-        <img className='w-[6rem] sm:mb-3   mb-[3rem]' src={logo} alt="" />
+        className='mb-[3rem] sm:mt-[0.6rem]  sm:mb-0'>
+        
             <h6 className='sm:px-2  my-1 sm:pt-[0.6rem] font-bold text-[#159EEC]'>About</h6>
             <p className='sm:w-[20rem] text-white text-[0.7rem] sm:text-[0.7rem] font-poppins mt-2'>Autom-Mon Integrated Corp is a business consultancy firm that specializes in providing strategic solutions to organizations. Our team of experts has extensive experience in the industry and is committed to delivering customized services that will optimize your overall business performance. We believe that our success is closely tied to the success of our clients, and we aim to exceed their expectations at every turn. Contact us today and let us help you achieve your business objectives.</p>
          </motion.div>
@@ -62,12 +62,12 @@ function Footer() {
              initial={"offscreen"}
              whileInView={"onscreen"}
              variants={text}
-            className='mb-[3rem] sm:mb-0 sm:mt-[-0.98rem] '>
+            className='mb-[3rem] sm:mb-0 sm:mt-[-2.9rem] '>
                <h6 className='  my-1 font-bold  sm:px-2  text-[#159EEC]'>Contact us</h6>
             <div className=''>
            
              <div className=''>
-             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins sm:pl-0 mt-2' href="tel:09162993656">Call us at 5872159210</a>
+             <a className='w-[15rem]  text-white text-[0.7rem]  sm:text-[0.7rem] hover:no-underline font-poppins sm:pl-0 mt-2' href="tel:5872159210">Call us at 5872159210</a>
              </div>
 
              <div>
@@ -87,7 +87,7 @@ function Footer() {
              initial={"offscreen"}
              whileInView={"onscreen"}
              variants={text}
-            className=' mb-[5rem] sm:mt-[-4.2rem]  sm:mb-0'>
+            className=' mb-[5rem] sm:mt-[-5.9rem]  sm:mb-0'>
             <h6 className='sm:px-2  my-1 font-bold text-[#159EEC] '>Locations</h6>
             <div className=''>
            
